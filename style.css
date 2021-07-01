@@ -1,0 +1,270 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #ED1C24; 
+}
+
+nav {
+   text-align: center;
+   padding-top: 1em;
+   padding-bottom: 1em;
+}
+
+ 
+  main {
+   margin-top: 3%;
+   margin-bottom:3%;
+   margin-right: 20%;
+   margin-left: 20%;
+ }
+/* STYLE TEXT */
+
+h1 {
+  color: white;
+  font-style: helvetica;
+  font-family: sans-serif;
+  text-align: center; 
+  padding-top: 1em;
+  padding-bottom:1em; 
+}
+
+#aifImage {
+ width: 30em;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  border: 6px solid white;  
+}
+
+ul {
+   background-color: #2667FF;
+   overflow: hidden; 
+   padding: 1em;
+ }
+li.nav-item {
+  display: inline;
+}
+ li a {
+   text-decoration: none;
+   color: white; 
+   font-size: 2em;
+   padding: 1em;
+   margin-top: 10%
+ }
+
+ li a:hover {
+   background-color: #3F8EFC; 
+ }
+
+ p {
+   font-size: 20pt; 
+   text-align: center; 
+ }
+h4 {
+  color: rgb(178, 195, 218);
+  font-style: helvetica;
+  font-family: sans-serif;
+  text-align: center; 
+  padding-top: 1em;
+  padding-bottom:1em; 
+}
+
+h3 {
+  color: #F9F5E3;
+  font-style: georgia;
+  font-family: serif;
+  text-align: center; 
+  padding-top: 1em;
+  padding-bottom:1em; 
+}
+
+h2 {
+  color: #3F8EFC;
+  font-style: helvetica;
+  font-family: sans-serif;
+  text-align: center; 
+  padding-top: 1em;
+  padding-bottom:1em; 
+}
+
+.subtitle{
+  text-align: center;
+  font-size: 25px;
+
+  padding-top: 20px;
+}
+
+.attribution {
+  font-size: 5px;
+  text-align: center;
+  
+  padding-top: 10px;
+}
+
+a {
+  color: #2667FF; 
+  text-decoration: none;
+}
+
+/* STYLE NAV BAR */
+ul.nav-bar {
+  list-style-type: none;
+  overflow: hidden;
+
+  background-color: #2667FF; 
+ 
+}
+
+li.nav-item a {
+  font-size: 15px;
+  color:white;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  padding-right: 16px;
+  text-decoration: none;  
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav-item a:hover {
+  background-color: #3F8EFC; 
+  color: #F9F5E3;
+}
+
+#colorfulhandsImage {
+ width: 30em;
+  display: block; 
+  margin-left: auto; 
+  margin-right: auto;
+  border: 6px solid white;  
+}
+
+.scriptQues {
+  background: #F9F5E3;
+  border-radius: 10px;
+
+  margin-top: 3%;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center; 
+  padding-top: 20px;
+
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  font-size: 0.9em;
+  color: #ED1C24; 
+}
+
+#scriptBtn {
+  background: rgb(223, 78, 83);
+  border-style: none;
+  border-radius: 10px;
+
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  color: aliceblue;
+  font-size: 1em;
+}
+.genFact {
+  background: #F9F5E3;
+  border-radius: 10px;
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 35%;
+  margin-right: 35%;
+
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  line-height: 1.2em;
+  color: #2667FF; 
+}
+
+#fact {
+  border-style: none;
+
+  padding: 15px;
+
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+#factBtn {
+  background:#ED1C24;
+  border-style: none;
+  border-radius: 10px;
+
+  padding:10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  
+  color: antiquewhite;
+  font-size:1em;
+}
+
+/* STYLE IMAGES */
+img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-style:solid;
+  border-color: #3F8EFC;
+  border-width: 8px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 850px){
+ 
+ .flex-container{
+   flex-wrap: wrap;
+ }
+  
+ header {
+   padding-left: 20%;
+   padding-right: 20%;
+ }
+
+ main {
+   margin-left: 5%;
+   margin-right: 5%;
+ }
+
+ .genFact, #fact {
+   margin-top:10px;
+   margin-left: 15%;
+   margin-right: 15%;
+ }
+
+ #fact {
+   font-size: 1.5em;
+ }
+ 
+}
+
